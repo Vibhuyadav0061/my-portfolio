@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className='hero' id='hero'>
       <img src={vibhu_img} alt="Vibhu_image" />
-      <h1><span>I'm Vibhu Yadav</span> , MERN Stack developer.</h1>
+      <h1><span>I'm Vibhu Yadav</span> , Web developer.</h1>
       <p>Versatile C++ Programmer | Expertise in Html , Css , Javascript, React.js , C, C++, Python, Node.js, and Express.js | Transforming Ideas into Innovative Solutions</p>
       <div className="hero_action">
         <div className="contactme">
