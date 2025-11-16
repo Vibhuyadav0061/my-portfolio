@@ -4,8 +4,15 @@ import spotify_img from './img/spotify.png'
 import cal_img from './img/cal.png'
 import temp_img from './img/temp.png'
 import dishdeliver from './img/dishdeliver.png'
+import vibestay from './img/VibeStay.png'
+import SearchBook from './img/SearchBook.png'
 
 const mywork = [
+    {
+       project_name : "VibeStay",
+        project_link : "https://vibestay.onrender.com/listings" ,
+        project_img: vibestay
+    },
     {
         project_name : "DishDeliver",
         project_link : " https://v-dishdeliver.netlify.app/" ,
@@ -20,6 +27,11 @@ const mywork = [
         project_name : "DRMLICKISHNI SCHOOL WEBSITE",
         project_link : "https://vibhuyadav0061.github.io/drmlickishni/" ,
         project_img: drml_img
+    },
+    {
+        project_name : "Search Book",
+        project_link : "https://vibhuyadav0061.github.io/SearchImplimentation/" ,
+        project_img: SearchBook
     },
     {
         project_name : "CALCULATOR",

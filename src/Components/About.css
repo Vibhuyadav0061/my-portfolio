@@ -13,8 +13,8 @@
     text-emphasis: double-circle  #1b08cf;
     text-emphasis-position: under;
     padding: 0rem 2rem;
-    font-size: 5rem;
-    font-weight: 500;
+    font-size: 4rem;
+    font-weight: 400;
 }
 .about-section{
     display: flex;
@@ -23,8 +23,39 @@
 .about-left img {
    
     height: 20rem;
-   
+   /* animation: down 2s ease-in-out forwards;
+    */
+      animation: bounceIn 1.3s ease-out forwards;
+      transition: 1s;
 }
+/* @keyframes down{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+} */
+ @keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.about-left img:hover{
+    scale: calc(1.02);
+}
+
 .about-right{
     display: flex;
     flex-direction: column;

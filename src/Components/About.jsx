@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css' 
-import profile_img from '../assets/vibhu_img.png'
+// import profile_img from '../assets/vibhu_img.png'
+import skill from '../assets/img/tech.png'
 function About() {
   return (
     <div className='about' id='about'>
@@ -9,7 +10,7 @@ function About() {
       </div>
       <div className="about-section">
         <div className="about-left">
-             <img src={profile_img} alt="image" />
+             <img src={skill} alt="image" />
              
         </div>
         <div className="about-right">

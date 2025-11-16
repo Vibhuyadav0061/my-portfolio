@@ -1,0 +1,46 @@
+.certificateContainer h1{
+    text-emphasis: double-circle  #1b08cf;
+    text-emphasis-position: under;
+    padding: 0rem 2rem;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.certificateShow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 2rem;
+}
+.certificate img{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+@media(max-width:722px){
+    .certificateContainer{
+        gap:50px;
+        margin: 50px 20px;
+        align-items: start;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .certificateContainer h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .certificateShow{
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+    }
+    .certificate img{
+        width: 100%;
+        height: 100%;
+    }
+   
+}
