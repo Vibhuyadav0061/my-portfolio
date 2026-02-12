@@ -1,0 +1,75 @@
+/* Custom Logo Component */
+.custom-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-logo:hover {
+  transform: translateY(-2px);
+}
+
+.logo-text {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.logo-first-name {
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.logo-last-name {
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.logo-subtitle {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-weight: 500;
+  margin-top: 0.2rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .logo-text {
+    gap: 0.3rem;
+  }
+  
+  .logo-first-name,
+  .logo-last-name {
+    font-size: 1.5rem;
+  }
+  
+  .logo-subtitle {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-first-name,
+  .logo-last-name {
+    font-size: 1.3rem;
+  }
+  
+  .logo-subtitle {
+    font-size: 0.65rem;
+  }
+}
